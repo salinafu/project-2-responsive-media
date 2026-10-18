@@ -15,11 +15,31 @@
         <h1>NYC Landmarks Virtual Tour</h1>
         <p class="intro">This site highlights some interesting landmarks across New York City's five boroughs.</p>
 
+        <!-- Featured image using <picture> -->
+        <picture>
+            <!-- Large screens (desktop/tablet) -->
+            <source
+            media="(min-width: 645px)"
+            srcset="images/pexels-kelsey-caroline-774981359-19122990.jpg">
+
+            <!-- Small screens (mobile) -->
+            <source
+            media="(max-width: 644px)"
+            srcset="images/square/pexels-kelsey-caroline-774981359-19122990.jpg">
+
+            <!-- Fallback image -->
+            <img
+            src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg"
+            alt="Wonder Wheel ferris wheel at Coney Island">
+        </picture>
+
         <div class="landmarks-grid">
+            <!--
             <figure>
                 <img src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg" alt="Wonder Wheel ferris wheel at Coney Island">
                 <figcaption><a href="https://www.pexels.com/photo/ferris-wheel-in-amusement-park-19122990/">Photo by Kelsey Caroline</a></figcaption>
-            </figure>
+          </figure>
+          -->
 
             <figure>
                 <img src="images/square/pexels-loquellano-12404963.jpg" alt="Roosevelt Island Tramway leaving Manhattan">
