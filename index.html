@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="site-title">NYC Landmarks</div>
@@ -16,62 +18,73 @@
         <p class="intro">This site highlights some interesting landmarks across New York City's five boroughs.</p>
 
         <div class="videoWrapper ratio-16-9">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/8jrtg1jNnNs?si=I727Wo8IMQYbMWO5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/8jrtg1jNnNs?si=I727Wo8IMQYbMWO5"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
-        <section>
-        <!-- Featured image using <picture> -->
+        <section class="featured-image">
+            <!-- Featured image using <picture> -->
             <h2>Featured Landmark</h2>
             <picture>
                 <!-- Large screens (desktop/tablet) -->
-                <source
-                media="(min-width: 645px)"
-                srcset="images/pexels-kelsey-caroline-774981359-19122990.jpg">
+                <source media="(min-width: 645px)" srcset="images/pexels-kelsey-caroline-774981359-19122990.jpg">
 
                 <!-- Small screens (mobile) -->
-                <source
-                media="(max-width: 644px)"
-                srcset="images/square/pexels-kelsey-caroline-774981359-19122990.jpg">
+                <source media="(max-width: 644px)" srcset="images/square/pexels-kelsey-caroline-774981359-19122990.jpg">
 
                 <!-- Fallback image -->
-                <img
-                src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg"
-                alt="Wonder Wheel ferris wheel at Coney Island">
+                <img src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg"
+                    alt="Wonder Wheel ferris wheel at Coney Island">
+            </picture>
         </section>
 
         <section class="landmarks">
             <h2>Landmarks</h2>
             <div class="landmarks-grid">
-                <!--
                 <figure>
-                    <img src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg" alt="Wonder Wheel ferris wheel at Coney Island">
-                    <figcaption><a href="https://www.pexels.com/photo/ferris-wheel-in-amusement-park-19122990/">Photo by Kelsey Caroline</a></figcaption>
-            </figure>
-            -->
-
-                <figure>
-                    <img src="images/square/pexels-loquellano-12404963.jpg" alt="Roosevelt Island Tramway leaving Manhattan">
-                    <figcaption><a href="https://www.pexels.com/photo/cable-car-above-city-street-12404963/"></a>Photo by Raphael Loquellano</figcaption>
+                    <img src="images/square/pexels-kelsey-caroline-774981359-19122990.jpg"
+                        alt="Wonder Wheel ferris wheel at Coney Island">
+                    <figcaption><a href="https://www.pexels.com/photo/ferris-wheel-in-amusement-park-19122990/">Photo by
+                            Kelsey Caroline</a></figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/square/pexels-malcolmhill-12360516.jpg" alt="Yankee Stadium seen from the water with stadium title visible.">
-                    <figcaption><a href="https://www.pexels.com/photo/yankee-stadium-under-the-blue-sky-12360516/"></a>Photo by Malcolm Hill</figcaption>
+                    <img src="images/square/pexels-loquellano-12404963.jpg"
+                        alt="Roosevelt Island Tramway leaving Manhattan">
+                    <figcaption><a href="https://www.pexels.com/photo/cable-car-above-city-street-12404963/">Photo by
+                            Raphael Loquellano</a></figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/square/pexels-mora-versio-2150673251-34091093.jpg" alt="Statue of Liberty from below looking up at it">
-                    <figcaption><a href="https://www.pexels.com/photo/statue-of-liberty-in-new-york-city-usa-34091093/"></a>Photo by Mora Versio</figcaption>
+                    <img src="images/square/pexels-malcolmhill-12360516.jpg"
+                        alt="Yankee Stadium seen from the water with stadium title visible.">
+                    <figcaption><a href="https://www.pexels.com/photo/yankee-stadium-under-the-blue-sky-12360516/">Photo
+                            by Malcolm Hill</a></figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/square/pexels-tracehudson-2424391.jpg" alt="Empire State Building with lower Manhattan in the background">
-                    <figcaption><a href="https://www.pexels.com/photo/empire-state-building-2424391/"></a>Photo by Trace Hudson</figcaption>
+                    <img src="images/square/pexels-mora-versio-2150673251-34091093.jpg"
+                        alt="Statue of Liberty from below looking up at it">
+                    <figcaption><a
+                            href="https://www.pexels.com/photo/statue-of-liberty-in-new-york-city-usa-34091093/">Photo
+                            by Mora Versio</a></figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/square/praswin-prakashan-YOCN1a1m_dg-unsplash.jpg" alt="Staten Island Ferry pulling into the dock">
-                    <figcaption><a href="https://unsplash.com/photos/a-large-ferry-boat-in-a-body-of-water-YOCN1a1m_dg"></a>Photo by Praswin Prakashan</figcaption>
+                    <img src="images/square/pexels-tracehudson-2424391.jpg"
+                        alt="Empire State Building with lower Manhattan in the background">
+                    <figcaption><a href="https://www.pexels.com/photo/empire-state-building-2424391/">Photo by Trace
+                            Hudson</a></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/square/praswin-prakashan-YOCN1a1m_dg-unsplash.jpg"
+                        alt="Staten Island Ferry pulling into the dock">
+                    <figcaption><a
+                            href="https://unsplash.com/photos/a-large-ferry-boat-in-a-body-of-water-YOCN1a1m_dg">Photo
+                            by Praswin Prakashan</a></figcaption>
                 </figure>
 
             </div>
@@ -83,4 +96,5 @@
     </footer>
 
 </body>
+
 </html>
