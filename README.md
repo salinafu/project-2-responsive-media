@@ -1,12 +1,16 @@
 # NYC Landmarks
 
 ## Project Overview
+This website is an introduction to New York City for tourists visiting for the first time. There are so many videos, websites, blogs, and content available on the web. As a born and raised New Yorker, I offer a native perspective of what's worth seeing in a sea of options. The website is minimal and clear; the photos do the talking.
 
 ## Target Audience
 
 People who want information about some of New York City's major landmarks. They may be comparing places to visit while planning at home or looking up information on a phone while traveling around the city. The site should help them quickly understand what each landmark offers and find links to visitor information and directions.
 
 ## Goals
+- To create a user-friendly responsive website, great for both web and mobile users.
+- To improve my design and layout skills.
+- To use this website as a working template/mock-up for future designs that quickly need to get off the ground.
 
 ### User Goals
 
